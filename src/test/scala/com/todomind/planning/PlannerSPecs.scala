@@ -11,10 +11,7 @@ class PlannerSPecs extends SimpleSpecs {
     "provided with a list of nested workItems with priorities" should {
       val workItems: Seq[WorkItem] = Seq()
       "produce a plan " which {
-        "contains all provided work items" in {
-          val plan = planner.producePlan(workItems)
-
-        }
+        "contains all provided work items" in  pending
 
         "order items by by priority then by provided order respecting nesting" in pending
 
